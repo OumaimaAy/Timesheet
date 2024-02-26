@@ -16,7 +16,7 @@ public class UserRestControl {
 
 	@Autowired 
 	IUserService userService; 
-
+// cest une class RestController
 	
 	// URL : http://localhost:????/????/????/retrieve-all-users
 	@GetMapping("/retrieve-all-users")
